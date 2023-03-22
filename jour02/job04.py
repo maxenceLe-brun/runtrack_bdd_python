@@ -10,7 +10,7 @@ connection_params = {
 with mysql.connector.connect(**connection_params) as db :
     db.autocommit = True
     with db.cursor() as c:
-        c.execute("SELECT * FROM salles")
+        c.execute("SELECT name, capacite FROM salles")
         for i in c.fetchall():
             print(i)
         pass
