@@ -1,0 +1,17 @@
+mysqldump.exe -u laplateforme -p etudiant > test
+first try : Access is denied
+mysqldump.exe -u laplateforme -p etudiant > test
+Second try : Access is denied
+mysqldump.exe -u laplateforme -p etudiant > test
+Third try: Access is denied
+
+administrator run
+cd C:\Program Files\MySQL\MySQL Server 8.0\bin
+mysqldump.exe -u laplateforme -p etudiant > test
+Fourth try : mysqldump: Got error: 1045: Access denied for user 'laplateforme'@'localhost' (using password: YES) when trying to connect
+
+administrator run
+cd C:\Program Files\MySQL\MySQL Server 8.0\bin
+mysqldump.exe -u root -p laplateforme > laplateforme.sql
+Fifth try : None
+File cloned
