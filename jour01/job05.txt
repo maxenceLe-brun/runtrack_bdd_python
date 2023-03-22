@@ -1,0 +1,2 @@
+insert into etudiant (id, name, nickname, age, email)
+    -> values (n, "Abcde", "Fghij", nn, "abcde.fghij@laplateforme.io");
